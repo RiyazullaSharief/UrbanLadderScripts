@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Welcome to www.urbanladder.com]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully...!!]]>
+    </line>
+    <line>
+      <![CDATA[Coffee Tables Page is displayed...]]>
+    </line>
+    <line>
+      <![CDATA[Compare page is displayed...]]>
+    </line>
+    <line>
+      <![CDATA[Item 2 is greater...!!]]>
+    </line>
+    <line>
+      <![CDATA[Logged out successfully...!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99105" started-at="2018-10-15T05:21:15Z" finished-at="2018-10-15T05:22:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="99105" started-at="2018-10-15T05:21:15Z" finished-at="2018-10-15T05:22:54Z">
+      <class name="tests.AddToCompare">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:tests.AddToCompare@14bf9759]" name="launchApplication" is-config="true" duration-ms="16506" started-at="2018-10-15T10:51:15Z" finished-at="2018-10-15T10:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="loginLogout()[pri:0, instance:tests.AddToCompare@14bf9759]" name="loginLogout" duration-ms="80433" started-at="2018-10-15T10:51:31Z" finished-at="2018-10-15T10:52:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome to www.urbanladder.com]]>
+            </line>
+            <line>
+              <![CDATA[Logged in successfully...!!]]>
+            </line>
+            <line>
+              <![CDATA[Coffee Tables Page is displayed...]]>
+            </line>
+            <line>
+              <![CDATA[Compare page is displayed...]]>
+            </line>
+            <line>
+              <![CDATA[Item 2 is greater...!!]]>
+            </line>
+            <line>
+              <![CDATA[Logged out successfully...!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.AddToCompare@14bf9759]" name="close" is-config="true" duration-ms="2138" started-at="2018-10-15T10:52:52Z" finished-at="2018-10-15T10:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.AddToCompare -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
