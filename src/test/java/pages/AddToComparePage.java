@@ -38,7 +38,13 @@ public class AddToComparePage
 	@FindBy(xpath="(//div[@class='prop-value'])[2]")
 	private WebElement price2;
 	
-	@FindBy(xpath="//img[@class='logo']")
+	@FindBy(xpath="(//button[@class='button buy-now'])[1]")
+	private WebElement addToCart1;
+	
+	@FindBy(xpath="(//button[@class='button buy-now'])[2]")
+	private WebElement addToCart2;
+	
+	@FindBy(xpath="//img[@class='logo-img']")
 	private WebElement logo;
 	
 	@FindBy(xpath="//span[@class='header-icon-link user-profile-icon']")
@@ -76,7 +82,7 @@ public class AddToComparePage
 		Reporter.log("Compare page is displayed...", true);
 	}
 	
-	public void compare_Price() throws InterruptedException
+	public void compare_Price_addToCart() throws InterruptedException
 	{
 		String cmpPrice1=price1.getText().replaceAll("₹","").replaceAll(",","");
 		double a=Double.parseDouble(cmpPrice1);
@@ -86,14 +92,22 @@ public class AddToComparePage
 		double b=Double.parseDouble(cmpPrice2);
 		System.out.println("Item 2 price is: ₹ "+b);
 		
-		if(a>b)
-			Reporter.log("Item 1 is greater...!!",true);
-		else if(b>a)
-			Reporter.log("Item 2 is greater...!!",true);
+		if(a<b)
+		{
+			Reporter.log("Item 1 is smaller...!!",true);
+			addToCart1.click();
+			Reporter.log("Item 1 added to cart successfully...!!",true);
+		}
+		else if(b<a)
+		{
+			Reporter.log("Item 2 is smaller...!!",true);
+			addToCart2.click();
+			Reporter.log("Item 2 added to cart successfully...!!",true);
+		}
 		else
 			Reporter.log("Both the Items are having same price...!!",true);
 	}
-	
+
 	public void logout()
 	{
 		logo.click();

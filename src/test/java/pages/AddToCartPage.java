@@ -15,7 +15,8 @@ public class AddToCartPage
 	private WebElement sofas;
 	
 	//@FindBy(xpath="//a[@title='Barnley Single Over Queen Storage Bunkbed ']/..") //Dependent element
-	@FindBy(xpath="(//a[@class='product-details'])[5]")
+	//@FindBy(xpath="(//a[@class='product-details'])[5]")
+	@FindBy(xpath="(//a[@class='product-details' and @title='Barnley Single Over Queen Storage Bunkbed '])[1]")
 	private WebElement firstItem;
 	
 	@FindBy(xpath="(//button[@id='add-to-cart-button'])[1]")

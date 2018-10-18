@@ -8,28 +8,52 @@
       <![CDATA[Logged in successfully...!!]]>
     </line>
     <line>
-      <![CDATA[Coffee Tables Page is displayed...]]>
+      <![CDATA[Successfully validated]]>
     </line>
     <line>
-      <![CDATA[Compare page is displayed...]]>
+      <![CDATA[Successfully validated]]>
     </line>
     <line>
-      <![CDATA[Item 2 is greater...!!]]>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated]]>
     </line>
     <line>
       <![CDATA[Logged out successfully...!!]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="99105" started-at="2018-10-15T05:21:15Z" finished-at="2018-10-15T05:22:54Z">
+  <suite name="Default suite" duration-ms="69969" started-at="2018-10-18T10:58:51Z" finished-at="2018-10-18T11:00:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="99105" started-at="2018-10-15T05:21:15Z" finished-at="2018-10-15T05:22:54Z">
-      <class name="tests.AddToCompare">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:tests.AddToCompare@14bf9759]" name="launchApplication" is-config="true" duration-ms="16506" started-at="2018-10-15T10:51:15Z" finished-at="2018-10-15T10:51:31Z">
+    <test name="Default test" duration-ms="69969" started-at="2018-10-18T10:58:51Z" finished-at="2018-10-18T11:00:01Z">
+      <class name="tests.GetText">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:tests.GetText@14bf9759]" name="launchApplication" is-config="true" duration-ms="18029" started-at="2018-10-18T16:28:51Z" finished-at="2018-10-18T16:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="loginLogout()[pri:0, instance:tests.AddToCompare@14bf9759]" name="loginLogout" duration-ms="80433" started-at="2018-10-15T10:51:31Z" finished-at="2018-10-15T10:52:52Z">
+        <test-method status="PASS" signature="getText()[pri:0, instance:tests.GetText@14bf9759]" name="getText" duration-ms="49828" started-at="2018-10-18T16:29:09Z" finished-at="2018-10-18T16:29:59Z">
           <reporter-output>
             <line>
               <![CDATA[Welcome to www.urbanladder.com]]>
@@ -38,24 +62,48 @@
               <![CDATA[Logged in successfully...!!]]>
             </line>
             <line>
-              <![CDATA[Coffee Tables Page is displayed...]]>
+              <![CDATA[Successfully validated]]>
             </line>
             <line>
-              <![CDATA[Compare page is displayed...]]>
+              <![CDATA[Successfully validated]]>
             </line>
             <line>
-              <![CDATA[Item 2 is greater...!!]]>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated]]>
             </line>
             <line>
               <![CDATA[Logged out successfully...!!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginLogout -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.AddToCompare@14bf9759]" name="close" is-config="true" duration-ms="2138" started-at="2018-10-15T10:52:52Z" finished-at="2018-10-15T10:52:54Z">
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.GetText@14bf9759]" name="close" is-config="true" duration-ms="2079" started-at="2018-10-18T16:29:59Z" finished-at="2018-10-18T16:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- tests.AddToCompare -->
+      </class> <!-- tests.GetText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

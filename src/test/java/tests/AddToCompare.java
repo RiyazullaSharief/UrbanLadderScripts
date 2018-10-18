@@ -29,7 +29,7 @@ public class AddToCompare extends BaseClass
 		Thread.sleep(2000);
 		atcp.compare();
 		Thread.sleep(2000);
-		atcp.compare_Price();
+		atcp.compare_Price_addToCart();
 		Thread.sleep(2000);
 		atcp.logout();
 	}

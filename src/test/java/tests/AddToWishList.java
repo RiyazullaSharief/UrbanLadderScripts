@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
 import pages.AddToWishListPage;
@@ -28,8 +29,17 @@ public class AddToWishList extends BaseClass
 		
 		AddToWishListPage atwl=new AddToWishListPage(driver);
 		atwl.search("sofas");
+		Thread.sleep(2000);
+		String expectedTitle="Furniture Online: Buy Home Wooden Furniture in India @ 30% OFF - Urban Ladder";
+		atwl.verifyPageOpened(expectedTitle);
 		Thread.sleep(3000);
+		
 		atwl.wishlist();
+		atwl.verifyPageOpened(expectedTitle);
 		Thread.sleep(5000);
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("scroll(0,-250);");
+		Thread.sleep(2000);
+		atwl.logout();
 	}
 }

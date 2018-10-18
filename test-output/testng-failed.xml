@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.AddToCompare">
+      <class name="tests.AddToWishList">
         <methods>
           <include name="loginLogout"/>
           <include name="close"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- tests.AddToCompare -->
+      </class> <!-- tests.AddToWishList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

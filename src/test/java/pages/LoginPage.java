@@ -68,4 +68,19 @@ public class LoginPage
 		Assert.assertEquals(actualTitle,expectedTitle);
 		Reporter.log(actualTitle,true);
 	}
+	
+	public void verifyAppOpened(String expectedTitle)
+	{
+		String actualTitle=driver.getTitle();
+		Assert.assertEquals(actualTitle,expectedTitle);
+		if(i<=1)
+		{
+			Reporter.log("Welcome to www.urbanladder.com",true);
+			i++;
+		}
+		else if(i>=2)
+		{
+			Reporter.log("Logged in successfully...!!",true);
+		}
+	}
 }
